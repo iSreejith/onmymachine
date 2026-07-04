@@ -6,8 +6,14 @@
   "bin": { "onmymachine": "bin/onmymachine.js" },
   "engines": { "node": ">=18" },
   "files": ["bin", "src", "README.md", "LICENSE"],
-  "scripts": { "test": "node --test" },
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
   "keywords": ["cli", "environment", "diff", "debugging", "works-on-my-machine", "devtools", "devx"],
-  "author": "Sreejith <sreejith@primethoughts.com>",
+  "author": "Sreejith <iSreejith@gmail.com> (https://github.com/iSreejith)",
+  "repository": { "type": "git", "url": "git+https://github.com/iSreejith/onmymachine.git" },
+  "bugs": { "url": "https://github.com/iSreejith/onmymachine/issues" },
+  "homepage": "https://github.com/iSreejith/onmymachine#readme",
   "license": "MIT"
 }
